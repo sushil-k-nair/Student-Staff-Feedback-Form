@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(90deg, rgb(0, 95, 219), rgb(118, 147, 184));
+    width: 100%;
+    height: auto;
+}
+
+/************** NAV BAR ***************/
+
+.nav_bar{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(10, 50, 110);
+    border-radius: 5px;
+}
+.nav_bar h1{
+    color: rgb(255, 174, 0);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 3em;
+    float: left;
+}
+.nav_bar a{
+    width: 150px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(10, 50, 110);
+    background-color: rgb(255, 174, 0);
+    border-radius: 5px;
+}
+.nav_bar a:hover{
+    background-color: rgb(255, 208, 0);
+}
+
+/**************** INDEX ***************/
+
+.feedbackbody{
+    width: 60%;
+    height: 1150px;
+    background-color: rgb(255, 223, 153);
+    border-radius: 20px;
+    margin: auto;
+}
+#userdetails{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(247, 201, 0);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#userarea{
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-left: 10px;
+}
+#question{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 10px;
+}
+#question text{
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+#question label{
+    font-size: 20px;
+}
+#qspace{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.feedbackbody button{
+    width: 100px;
+    height: 50px;
+    background: rgb(255, 208, 0);
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*************** ADMIN LOGIN PAGE ***************/
+
+.loginpage{
+    width: 30%;
+    height: 32.5%;
+    background-color: rgb(255, 223, 153);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.loginpage #username, #password{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+.loginpage button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(247, 201, 0);
+    margin-top: 9px;
+    margin-left: 38%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.loginpage #newadmin{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 33%;
+    text-align: center;
+}
+.loginpage a{
+    width: 180px;
+    height: 30px;
+    text-decoration: none;
+}
+
+/***************  NEW ADMIN ADD PAGE ***************/
+
+.registerpage{
+    width: 30%;
+    height: 55%;
+    background-color: rgb(255, 223, 153);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.registerpage #username, #password{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+.registerpage button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(247, 201, 0);
+    margin-top: 10px;
+    margin-left: 35%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*************** ERROR ***************/
+
+.feedback_error{
+    padding: 2px 0px 2px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FFDFDD;
+    color: #0e4e80;
+    text-align: center;
+    border: 3px solid #e05735;
+    border-radius: 5px;
+    
+}
+
+/**************** ADMIN PAGE ***************/
+
+.feedback_resp{
+    width: 90%;
+    height: 350px;
+    background-color: rgb(255, 174, 0);
+    margin-top: 10px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+}
+.feedback_resp .feedback_user{
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    background-color: rgb(218, 156, 22);  
+}
+.feedback_resp .feedback_user text{
+    background-color: rgb(218, 156, 22);
+    border-radius: 5px;
+}
+.feedback_resp .feedback_ans{
+    width: 100%;
+    margin-top: 10px;
+}
+.feedback_resp .feedback_ans .line{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+}
+.feedback_resp .feedback_ans .line .questions{
+    float: left;
+}
+.feedback_resp .feedback_ans .line .answers{
+    float: right;
+}
+.feedback_resp .feedback_ans .line:hover{
+    background-color: rgb(255, 230, 0);
+}
